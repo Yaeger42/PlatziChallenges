@@ -10,5 +10,5 @@ def pizzaTime():
     x = int(input("Enter the number of total slices: "))
     y = int(input("Enter the number of consumed slices: "))
     z = x - y
-    return z 
+    return print(f"The total slices that are left are: {z}")"
 pizzaTime()

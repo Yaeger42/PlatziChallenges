@@ -12,8 +12,8 @@ def birthdays():
     age = int(input("Enter your age: "))
     past = age - 1
     future = age + 1
-    return print(name + " " + "You'll be " +  str(future) + " years old in one year and you were " 
-    + str(future) + " years old one year ago")
+    return print(f"{name} You'll be " +  str(future) + " years old in one year and you were " 
+    + str(past) + " years old one year ago")
 
 birthdays()
  

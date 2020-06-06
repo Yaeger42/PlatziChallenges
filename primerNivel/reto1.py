@@ -8,5 +8,5 @@ en pantalla lo siguiente: Hola, [nombre]
 '''
 def sayHello():
     name = input("Enter your name: ")
-    return print("Hello " + name)
+    return print(f"Hello {name}")
 sayHello()
